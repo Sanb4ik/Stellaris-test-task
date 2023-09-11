@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+:root{
+    --width-s: 236px;
+    --width-s-reverse: -236px;
+    --width-l: 778px;
+    --width-l-reverse: -778px;
+    --font-color: #696969;
+    --underline-color: #ADB0B5;
+}
+
+.input_box {
+    font-family: 'Inter', sans-serif;
+    background-color: white;
+    box-shadow: 0px 2px 10px white;
+}
+
+.small{
+    width: var(--width-s);
+    padding-top: 20px;
+}
+
+.large{
+    width: var(--width-l);
+    padding-top: 70px;
+}
+
+.input_box input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    padding: 2px 0;
+    border-bottom: 2px solid var(--underline-color);
+    outline: none;
+    font-size: 18px;
+}
+
+.input_box .label_small{
+    transform: translate(var(--width-s-reverse), -20px);
+    position: absolute;
+    width: auto;
+    color: var(--font-color);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.input_box .label_large{
+    transform: translate(var(--width-l-reverse), -20px);
+    position: absolute;
+    width: auto;
+    color: var(--font-color);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+

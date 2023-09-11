@@ -1,0 +1,64 @@
+.form{
+    padding: 50px 88px;
+    min-height: 697px;
+    position: relative;
+
+}
+
+.form__content{
+    display: flex;
+    flex-direction: row;
+    gap:88px;
+
+}
+
+.main__info{
+    max-width: 630px;
+}
+
+.article__inputs_small{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 82px;
+    padding-top: 100px;
+}
+
+.main__info_title{
+    color: #151515;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.main__info_text{
+    opacity: 0.6;
+    padding-top: 24px;
+    font-size: 20px;
+    color: #000;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.logo{
+    margin-top: -30px;
+    width: 385px;
+    height: 360px;
+}
+
+.button{
+    position: absolute;
+    bottom:50px;
+    right: 88px;
+    border-radius: 16px;
+    border: 1px solid black;
+    font-family: 'Inter', sans-serif;
+    background: white;
+    width: 165px;
+    height: 57px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 100;
+}
