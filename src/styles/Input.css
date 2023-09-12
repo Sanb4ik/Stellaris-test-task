@@ -22,7 +22,7 @@
 
 .large{
     width: var(--width-l);
-    padding-top: 70px;
+    padding-top: 50px;
 }
 
 .input_box input {
